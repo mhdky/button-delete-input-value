@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button X untuk menghapus isi atau value dari sebuah input</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body class="w-full h-screen flex justify-center items-center">
+    <div class="w-3/6 bg-blue-500 h-9 p-0.5 flex items-center">
+        <div class="bg-white h-full w-[93%] flex justify-between items-center">
+            <input type="text" name="" id="search" onkeyup="inputText()" autocomplete="off" class="w-full h-full px-2 outline-none">
+            <div class="btn-delete-value hidden"><i class="fa-solid fa-xmark px-4 cursor-pointer"></i></div>
+        </div>
+
+        <button type="submit" class="w-[50px]"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+    </div>
+
+    <script src="public/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/209072fbdb.js" crossorigin="anonymous"></script>
+</body>
+</html>
